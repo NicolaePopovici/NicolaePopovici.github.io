@@ -10,7 +10,6 @@ def product_xml
     NUMBER_OF_ENTRIES.times {
       xml.url do |u|
         u.loc "https://nicolaepopovici.github.io/lorem_ipsum.html"
-        u.lastmod "2021-11-16T19:40:02+01:00"
       end
     }
   end
