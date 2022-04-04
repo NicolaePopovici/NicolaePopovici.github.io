@@ -1,6 +1,6 @@
 require 'builder'
 
-NUMBER_OF_ENTRIES = 30000
+NUMBER_OF_ENTRIES = 2
 
 def product_xml
   xml = Builder::XmlMarkup.new( :indent => 2 )
@@ -15,4 +15,4 @@ def product_xml
   end
 end
 
-File.write("sitemap.xml", product_xml)
+File.write("sitemap_with_two.xml", product_xml)
