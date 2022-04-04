@@ -1,6 +1,6 @@
 require 'builder'
 
-NUMBER_OF_ENTRIES = 500
+NUMBER_OF_ENTRIES = 2000
 
 def product_xml
   xml = Builder::XmlMarkup.new( :indent => 2 )
